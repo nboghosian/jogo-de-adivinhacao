@@ -1,0 +1,101 @@
+:root{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(315deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+
+    border-radius: 0.6rem;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    
+    width: min(42.8rem, 90%);
+    margin-top: 20rem;
+
+    display: flex;
+    padding: 4.8rem 6.4rem 6.4rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+/*screen1*/
+h1 {
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 600;  
+}
+h3 {
+    font-size: 1.4rem;
+}
+h1, h3, p {
+    color: #34355B;
+}
+p {
+    opacity: 0.8;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+body, button, input {
+    font-family: DM Sans; 
+    margin-bottom: 1.6rem;
+}
+
+input{
+    border-radius: 4px 0px 0px 4px;
+    background: #DCE2E9; 
+
+    width: 4rem;   
+}
+button {
+    border-radius: 0px 4px 4px 0px;
+    background: var(--iris-80, #7879F1);
+
+    color: var(--neutral-white, #FFF); 
+    font-weight: bold;
+
+    width: 8rem;
+
+    cursor: pointer;
+
+    transition: background .3s;
+}
+button:hover{
+   background: #3f3fb7; 
+}
+form {
+    margin-top: 4.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*screen2*/
+.screen2 p {
+    font-family: DM Sans;
+    font-size: 24px; 
+}
+.screen2 button{
+    border-radius: 4px;
+    width: 16rem;
+}
